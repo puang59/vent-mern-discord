@@ -28,7 +28,7 @@ const Vent = () => {
                 <h6 className="card-title">ID: {vent._id}</h6>
                 <hr></hr>
                 <h5 className="card-text">{vent.para}</h5>
-                <a href="#" className="btn btn-primary">Jump Link</a>
+                <a href={vent.jump} className="btn btn-primary">Jump Link</a>
               </div>
             </div>
             <br></br>
